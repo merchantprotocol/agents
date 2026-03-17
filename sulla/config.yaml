@@ -2,7 +2,6 @@ name: Sulla
 description: The default and primary agent to respond to user requests. She is a
   planner and a worker for general tasks.
 type: worker
-templateId: glass-core
 skills:
   - git-operations
   - github-issue-management
@@ -44,15 +43,6 @@ tools:
   - list_installed_extensions
   - install_extension
   - uninstall_extension
-  - fs_append_file
-  - fs_copy_path
-  - fs_delete_path
-  - fs_list_dir
-  - fs_mkdir
-  - fs_move_path
-  - fs_path_info
-  - fs_read_file
-  - fs_write_file
   - github_add_remote
   - github_comment_on_issue
   - github_create_file

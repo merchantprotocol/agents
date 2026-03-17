@@ -1,0 +1,11 @@
+name: Thinker
+description: Convert the synthesized reports into an identity file
+type: worker
+skills:
+  - identity-file-management
+tools:
+  - exec
+  - file_search
+  - load_skill
+  - remove_observational_memory
+  - add_observational_memory

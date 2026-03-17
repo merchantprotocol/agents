@@ -1,0 +1,6 @@
+name: Technical Architect
+description: Converts a plan into a single step of action to take next
+type: planner
+templateId: glass-core
+skills: []
+tools: []
