@@ -71,7 +71,7 @@ You MUST clearly identify the actor:
 
 ## Identity File Updates (when userMessage asks to update identity)
 
-When updating identity files (self-identity.md, human-identity.md, world-identity.md, business-identity.md):
+When updating identity files (agent.md, human.md, world.md, business.md):
 
 1. **READ** the current identity file first
 2. **COMPARE** with today's observations (from add_observational_memory entries)

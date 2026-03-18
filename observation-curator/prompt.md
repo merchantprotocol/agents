@@ -22,6 +22,8 @@ Read the current daily goals from:
 
 Extract the active daily and weekly goals. These are your filtering lens.
 
+**If journal files don't exist yet:** This means the planning pipeline hasn't completed its first full run. In this case, your job shifts — instead of filtering observations through a goal lens, focus on identifying and keeping observations that would help the planning pipeline *create* those journals. Prioritize observations about: who the human is, what they care about, what the business does, what the agent has been working on. These foundational observations are the raw material the thinker and goal-setter need to bootstrap the identity and journal files. Use the identity files (`~/sulla/identity/human.md`, `business.md`, `agent.md`, `world.md`) as a substitute lens if they exist.
+
 ### Step 2: Read Current Observational Memory
 Read all current entries in observational memory (provided in your context). Also read the daily observation log at `~/sulla/daily-logs/YYYY-MM-DD/observations.md` if it exists.
 
