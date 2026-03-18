@@ -1,4 +1,4 @@
-name: Thinker
+name: Thinker Worker
 description: Convert the synthesized reports into an identity file
 type: worker
 injectObservations: false

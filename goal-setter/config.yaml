@@ -1,0 +1,13 @@
+name: Goal Setter
+description: Multi-perspective goal setting agent — generates goals through isolated lenses, synthesizes harmonic goals, and stress-tests through brutal self-critique
+type: worker
+injectObservations: false
+skills:
+  - goals-perspectives
+  - goals-journal
+tools:
+  - exec
+  - file_search
+  - load_skill
+  - remove_observational_memory
+  - add_observational_memory
