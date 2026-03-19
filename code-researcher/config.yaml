@@ -4,15 +4,12 @@ type: worker
 skills: []
 tools:
   - add_observational_memory
-  - browse_tools
   - exec
   - manage_active_asset
   - remove_observational_memory
   - meta_search
-  - load_skill
   - execute_workflow
   - restart_from_checkpoint
-  - send_channel_message
   - update_human_presence
   - get_human_presence
   - calendar_cancel
@@ -60,11 +57,6 @@ tools:
   - git_diff
   - git_stash
   - git_checkout
-  - integration_get_credentials
-  - integration_is_enabled
-  - integration_list
-  - list_integration_accounts
-  - set_active_integration_account
   - kubectl_apply
   - kubectl_delete
   - kubectl_describe

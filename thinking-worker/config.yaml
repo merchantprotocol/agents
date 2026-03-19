@@ -5,10 +5,8 @@ injectObservations: false
 skills: []
 tools:
   - add_observational_memory
-  - browse_tools
   - dom_observer
   - file_search
-  - load_skill
   - validate_sulla_workflow
   - get_human_presence
   - calendar_get
@@ -28,10 +26,6 @@ tools:
   - git_status
   - git_log
   - git_diff
-  - integration_get_credentials
-  - integration_is_enabled
-  - integration_list
-  - list_integration_accounts
   - kubectl_describe
   - get_form_values
   - get_page_snapshot

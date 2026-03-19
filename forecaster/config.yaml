@@ -8,6 +8,5 @@ skills:
 tools:
   - exec
   - file_search
-  - load_skill
   - remove_observational_memory
   - add_observational_memory

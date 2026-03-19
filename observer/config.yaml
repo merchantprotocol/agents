@@ -9,7 +9,6 @@ allowed_tools:
   - file_search
   - read
   - browser_tab
-  - browse_tools
   - add_observational_memory
   - docker
   - kubectl
@@ -41,7 +40,7 @@ communication:
 # Explicit restrictions (documented for clarity)
 restrictions:
   - "NO exec - cannot run commands that modify systems"
-  - "NO send_channel_message - no inter-agent communication"
+  - "NO inter-agent communication"
   - "You can observe everything, but change nothing outside your output"
   - "DO NOT advise - Document what IS, never what SHOULD BE"
   - "DO NOT act - Your job ends when documented"
