@@ -1,0 +1,15 @@
+name: Prompt Engineer
+description: Translates agent goals into prompt injection files for agents communicating with the human — operationalizes goals through conversation influence
+type: worker
+injectObservations: false
+skills:
+  - agent-prompts
+  - goals-influence-strategies
+  - agent-observation
+  - agent-thinking
+tools:
+  - exec
+  - file_search
+  - load_skill
+  - remove_observational_memory
+  - add_observational_memory

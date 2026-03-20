@@ -1,0 +1,10 @@
+name: Observation Curator
+description: Background agent that filters and summarizes the running observation log through the lens of daily goals — keeps observational memory lean and goal-relevant
+type: worker
+injectObservations: false
+skills: []
+tools:
+  - exec
+  - file_search
+  - add_observational_memory
+  - remove_observational_memory

@@ -1,6 +1,7 @@
 name: Thinking Worker
 description: Reads observation logs and synthesizes them
 type: worker
+injectObservations: false
 skills: []
 tools:
   - add_observational_memory
