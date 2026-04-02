@@ -103,6 +103,9 @@ tools:
   - update_workflow
   - validate_workflow
   - validate_workflow_payload
+  - browser_tab
+  - browse_page
+  - synthesize_tabs
   - click_element
   - get_form_values
   - get_page_snapshot

@@ -6,14 +6,9 @@ injectObservations: false
 
 # Tools this agent CAN use
 allowed_tools:
+  - exec
   - file_search
-  - read
   - browser_tab
-  - add_observational_memory
-  - docker
-  - kubectl
-  - pg
-  - redis
 
 # Skills this agent can use
 allowed_skills:
@@ -39,8 +34,7 @@ communication:
 
 # Explicit restrictions (documented for clarity)
 restrictions:
-  - "NO exec - cannot run commands that modify systems"
   - "NO inter-agent communication"
-  - "You can observe everything, but change nothing outside your output"
+  - "You can observe everything, but change nothing outside your output files"
   - "DO NOT advise - Document what IS, never what SHOULD BE"
   - "DO NOT act - Your job ends when documented"

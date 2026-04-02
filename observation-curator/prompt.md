@@ -16,16 +16,16 @@ Add goal-driven observation topics to the observe skills so the next pipeline ru
 
 ### Step 1: Load the Goal Context
 Read the current daily goals from:
-- `~/sulla/identity/human-journal.md` — human goals (daily, weekly, 13-week)
-- `~/sulla/identity/business-journal.md` — business goals
-- `~/sulla/identity/agent-journal.md` — agent goals
+- `~/sulla/identity/human/goals.md` — human goals (daily, weekly, 13-week)
+- `~/sulla/identity/business/goals.md` — business goals
+- `~/sulla/identity/agent/goals.md` — agent goals
 
 Extract the active daily and weekly goals. These are your filtering lens.
 
-**If journal files don't exist yet:** This means the planning pipeline hasn't completed its first full run. In this case, your job shifts — instead of filtering observations through a goal lens, focus on identifying and keeping observations that would help the planning pipeline *create* those journals. Prioritize observations about: who the human is, what they care about, what the business does, what the agent has been working on. These foundational observations are the raw material the thinker and goal-setter need to bootstrap the identity and journal files. Use the identity files (`~/sulla/identity/human.md`, `business.md`, `agent.md`, `world.md`) as a substitute lens if they exist.
+**If journal files don't exist yet:** This means the planning pipeline hasn't completed its first full run. In this case, your job shifts — instead of filtering observations through a goal lens, focus on identifying and keeping observations that would help the planning pipeline *create* those journals. Prioritize observations about: who the human is, what they care about, what the business does, what the agent has been working on. These foundational observations are the raw material the thinker and goal-setter need to bootstrap the identity and journal files. Use the identity files (`~/sulla/identity/human/identity.md`, `~/sulla/identity/business/identity.md`, `~/sulla/identity/agent/identity.md`, `~/sulla/identity/world/identity.md`) as a substitute lens if they exist.
 
 ### Step 2: Read Current Observational Memory
-Read all current entries in observational memory (provided in your context). Also read the daily observation log at `~/sulla/daily-logs/YYYY-MM-DD/observations.md` if it exists.
+Read all current entries in observational memory (provided in your context). Also read the daily observation logs at `~/sulla/daily-logs/YYYY-MM-DD/{domain}/observations/` for each domain if they exist.
 
 ### Step 3: Score Each Observation
 For every observation, ask:
