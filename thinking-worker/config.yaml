@@ -5,7 +5,6 @@ injectObservations: false
 skills: []
 tools:
   - add_observational_memory
-  - dom_observer
   - file_search
   - validate_sulla_workflow
   - get_human_presence
@@ -27,6 +26,8 @@ tools:
   - git_log
   - git_diff
   - kubectl_describe
+  - browser_tab
+  - browse_page
   - get_form_values
   - get_page_snapshot
   - get_page_text

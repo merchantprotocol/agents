@@ -9,6 +9,7 @@ allowed_tools:
   - exec
   - file_search
   - browser_tab
+  - browse_page
 
 # Skills this agent can use
 allowed_skills:
